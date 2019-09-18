@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(../images/nice_snow_@2X.png)
+}
+header{
+    height: 10vh;
+    width: 100%;
+    background-color:white;
+    border-bottom: #cccccc;
+}
+.heading{
+    width: 960px;
+    height: 10vh;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.yourname{
+    display: table-cell;
+    height: 10vh;
+    width: 200px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    vertical-align: middle;
+    
+
+}
+.navi{
+    display: table-cell;
+    width: 600px;
+    text-align: right;
+    height: 10vh;
+    vertical-align: middle;
+
+
+}
+main{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: table;
+    background-color:white;
+    min-height: 80vh;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 30px !important;
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+    
+}
+
+
+
+footer{
+    height: 10vh;
+    background-color: #666666;
+}
+
