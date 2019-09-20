@@ -3,20 +3,66 @@ form{
     display: table-cell; 
     padding: 30px;
     line-height: 30px;
+    height: 100%;
 }
 input{
     box-sizing: border-box;
     width: 100%;
-    border: 1px solid #555;
-
-
+    border: 1px solid #999999;
+    width: 100%;
 }
 textarea{
     width:100%;
     padding:0;
-    height:100px;
-    border: 1px solid #555;
+    height:200px;
+    border: 1px solid #999999;
 }
+::placeholder{
+    color:#b3b3b3;
+}
+
+
+.imgcontainer{
+    display: table;
+    width: 100%;
+}
+button{
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding:10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 4px 2px;
+}
+
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5{
+    position: relative;
+    display: block;
+    height:200;
+    width:300;
+    float:left;
+    padding:5px;
+}
+
+
+.text-in-box1,
+.text-in-box2,
+.text-in-box3,
+.text-in-box4{
+    position: absolute;
+    left: 50px;
+    background-color: goldenrod;
+    
+}
+
+
 
 
 
