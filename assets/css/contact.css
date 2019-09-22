@@ -23,9 +23,28 @@ textarea{
 
 
 .imgcontainer{
-    display: table;
+    /* display: table; */
+    background-color: red;
+    height:100%;
     width: 100%;
 }
+
+.img1, .img2, .img3, .img4 {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.img-text {
+    background-color: black;
+    color: white;
+    text-align: center;
+    transform: translateY(-45px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 button{
         background-color: #4aaaa5;
         border: none;
@@ -36,31 +55,7 @@ button{
         font-size: 20px;
         margin: 4px 2px;
 }
-
-
-.img1,
-.img2,
-.img3,
-.img4,
-.img5{
-    position: relative;
-    display: block;
-    height:200;
-    width:300;
-    float:left;
-    padding:5px;
-}
-
-
-.text-in-box1,
-.text-in-box2,
-.text-in-box3,
-.text-in-box4{
-    position: absolute;
-    left: 50px;
-    background-color: goldenrod;
-    
-}
+/* ssssadsdasdasdasdasd  testing  beloww  asdasdasdasdasdasdasd */
 
 
 
